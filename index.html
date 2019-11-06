@@ -1,51 +1,102 @@
 <!DOCTYPE html>
 <html lang='en'>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta name='author' content='Gwen Hey'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no'>
-    <meta name='description' content=''>
-    <meta name='keywords' content=''>
+<head>
+  <meta charset='utf-8'>
+  <meta name='author' content='Gwen Hey'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no'>
+  <meta name='description' content=''>
+  <meta name='keywords' content=''>
 
-    <title></title>
+  <title></title>
 
-    <!--Bootstrap CSS-->
-    <link rel='stylesheet' href='./css/bootstrap.min.css' type='text/css'>
-    <!--Project CSS-->
-    <link rel='stylesheet' href='./css/style.css' type='text/css'>
-  </head>
+  <!--Bootstrap CSS-->
+  <link rel='stylesheet' href='./css/bootstrap.min.css' type='text/css'>
+  <!--Project CSS-->
+  <link rel='stylesheet' href='./css/style.css' type='text/css'>
+</head>
 
-  <body>
+<body>
 
-    <nav class='container-fluid'>
-      <div class='container-fluid'>
-        <div id='navDate' class='col-lg-3'>
-          <date>Wed, Nov 6, 2019</date>
-        </div>
-        <div id='navLogo' class='col-3'>
-          <img src='' alt='logo'>
-        </div>
-        <div id='navButtons' class='col-5 col-lg-2'>
-          <p>SIGN IN</p>
-          <button>SUBSCRIBE</button>
-          <img src='#' alt='Burger Menu Icon'>
+  <nav class='container-fluid'>
+
+    <div class='navRow row'>
+      <div id='navDate' class='col-lg-4'>
+        <date>Wed, Nov 6, 2019</date>
+      </div>
+      <div id='navLogo' class='col-5 col-lg-4'>
+        <div class='logoDiv'>
+          <img src='' alt='logo' class='sr-only'>
         </div>
       </div>
-    </nav>
+      <div id='navButtons' class='col-7 col-lg-4'>
+        SIGN IN
+        <button>SUBSCRIBE ></button>
+        <img src='./css/images/burger.PNG' alt='Burger Menu Icon'>
+      </div>
+    </div>
 
-    <main>
+    <div id='whiteNav' class='navRow row'>
+      <div id='whiteNavGenres' class='col-11'>
+        <a href='#' target='blank'>U.S.</a>
+        <a href='#' target='blank'>World</a>
+        <a href='#' target='blank'>Business</a>
+        <a href='#' target='blank'>Tech & Science</a>
+        <a href='#' target='blank'>Culture</a>
+        <a href='#' target='blank'>Newsgeek</a>
+        <a href='#' target='blank'>Sports</a>
+        <a href='#' target='blank'>Health</a>
+        <a href='#' target='blank'>Opinion</a>
+        <a href='#' target='blank'>Vantage</a>
+        <form>
+          <input type='text' name='search' placeholder='Search'>
+          <label for='search' class='labelImage' aria-hidden="true"></label>
+        </form>
+      </div>
+      <div id='redBit' class='col-1'>
+        <img src='./css/images/whiteTriangle.PNG' alt='white triangle' aria-hidden="true">
+      </div>
+    </div>
+  </nav>
 
-    </main>
+  <main>
+    <div class='container-fluid' id='mainContent'>
 
-    <footer>
+    </div>
+  </main>
 
-    </footer>
+  <footer>
+    <div class='container-fluid' id='footerContainer'>
+      
+      <div id='footerTop'>
+        <img src='./css/images/redLogo.PNG' alt='Newsweek Logo'>
+        <p>© 2019 Newsweek</p>
+        <div id='socialIcons'></div>
+      </div>
+      
+      <div id='footerBottom'>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
     
-    <!--Bootstrap Scripts-->
-    <!--Full Jquery-->
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    </div>
+  </footer>
+
+  <!--Bootstrap Scripts-->
+  <!--Full Jquery-->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

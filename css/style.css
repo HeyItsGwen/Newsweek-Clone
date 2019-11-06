@@ -2,35 +2,195 @@
 
 /* NAV */
 
+body {
+  background-color: #f4f5f6;
+}
+
 nav {
-  background-color: red;
+  background-color: #f72210;
   height: 50px;
 }
 
-nav div {
-  display: inline-block;
+form {
+  display: inline;
+}
+
+input {
+  border: none;
+  width: 60px;
+}
+
+.navRow {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 #navDate {
   position: absolute;
   visibility: hidden;
+  color: white;
+}
+
+#navLogo {
+  display: flex;
+}
+
+.logoDiv {
+  width: 132px;
+  height: 20px;
+  background-image: url(./images/logoSmall.PNG);
+  background-size: cover;
+  background-position: center;
 }
 
 #navButtons {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bolder;
+  color: white;
+}
+
+#navButtons button {
+  border: 1px solid red;
+  height: 25px;
+  font-weight: bolder;
+  color: red;
+  margin: auto 20px auto 10px;
+}
+
+#navButtons img {
+  width: 30px;
+  height: 30px;
+}
+
+#whiteNav,
+nav,
+#mainContent,
+#footerContainer {
+  max-width: 1311px;
+}
+
+#whiteNav {
+  height: 55px;
+  border-bottom: 1px solid #f4f5f6;
+  position: absolute;
+  visibility: hidden;
+  display: flex;
+  background-color: white;
+}
+
+#whiteNavGenres {
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#whiteNav a {
+  font-size: 1.06em;
+  color: black;
+  font-weight: bolder;
+}
+
+.labelImage {
+  width: 20px;
+  height: 20px;
+  background-image: url(https://g.newsweek.com/www/images/icon-search-glass.svg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  position: relative;
+  top: 4px;
+}
+
+#redBit {
+  background-color: #f72210;
+  height: 30%;
+  align-self: flex-start;
+  display: flex;
+  align-items: flex-start;
+}
+
+#redBit img {
+  position: relative;
+  left: -16px;
+}
+
+/* MAIN */
+
+#mainContent {
+  background-color: white;
+  margin-top: 3px;
+  height: 500px;
+}
+
+/* FOOTER */
+
+#footerContainer {
+  background-color: white;
+}
+
+#footerTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#footerTop {
+  width: 236px;
+  height: auto;
 }
 
 /* MED */
 
+@media only screen and (min-width: 768px){
+  
+}
 
 /* LARGE */
 
 @media only screen and (min-width: 992px) {
   /* NAV */
 
+  nav {
+    height: 95px;
+  }
+
+  .logoDiv {
+    min-width: 390px;
+    height: 60px;
+    background-image: url(images/logoLarge.PNG);
+  }
+
   #navDate {
     position: static;
     visibility: visible;
+    margin-top: 27px;
+  }
+
+  #navLogo {
+    justify-content: center;
+  }
+
+  #navButtons {
+    margin-top: 33px;
+  }
+
+  #navButtons img {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  #whiteNav {
+    position: static;
+    visibility: visible;
+  }
+
+  /* MAIN */
+
+  #mainContent {
+    margin-top: 56px;
   }
 }
