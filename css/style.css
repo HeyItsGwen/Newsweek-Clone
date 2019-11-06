@@ -1,0 +1,36 @@
+/* SMALL */
+
+/* NAV */
+
+nav {
+  background-color: red;
+  height: 50px;
+}
+
+nav div {
+  display: inline-block;
+}
+
+#navDate {
+  position: absolute;
+  visibility: hidden;
+}
+
+#navButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* MED */
+
+
+/* LARGE */
+
+@media only screen and (min-width: 992px) {
+  /* NAV */
+
+  #navDate {
+    position: static;
+    visibility: visible;
+  }
+}
