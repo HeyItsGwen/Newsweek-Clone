@@ -123,8 +123,145 @@ nav,
 #mainContent {
   background-color: white;
   margin-top: 3px;
-  height: 500px;
+  padding-top: 15px;
 }
+
+.fullFigure {
+  width: 100%;
+}
+
+.fullFigure h1,
+#cultureTravel h1,
+#moreStories h1,
+#left h1,
+#right h1 {
+  font-weight: bolder;
+  font-size: 0.8em;
+  margin-bottom: 7px;
+  color: rgba(3,3,3,.4);
+}
+
+.fullFigure img {
+  width: 100%;
+  height: auto;
+}
+
+.genreTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7e7;
+  height: 30px;
+  width: 80px;
+  position: relative;
+  top: -30px;
+  margin-bottom: -25px;
+}
+
+.genreTag p {
+  margin: 0;
+  font-weight: bolder;
+  color: #f72210;
+}
+
+.fullFigure h2 {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.fullFigure p {
+  font-size: 0.8em;
+}
+
+#cultureMore {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#cultureTravel {
+  background-color: #f4f5f6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#cultureTravel h1 {
+  margin-top: 7px;
+  width: 100%;
+}
+
+#cultureTravel figure {
+  width: 45%;
+  display: inline-block;
+}
+
+#cultureTravel figure img {
+  width: 100%;
+  height: auto;
+}
+
+#cultureTravel h2 {
+  font-size: 1.25em;
+}
+
+#cultureTravel p {
+  font-size: 0.85em;
+}
+
+.cultureGenre a {
+  height: 100%;
+  width: 100%;
+  font-size: 0.9em;
+  padding: 0 5px;
+  color: #272727;
+  background-color: #c2d4d7;
+}
+
+.cultureGenre a:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+  text-decoration: none;
+}
+
+.moreStories {
+  clear: both;
+  padding: 10px 0;
+  border-top: 1px solid rgb(189, 189, 189);
+}
+
+.moreStories img {
+  float: left;
+  width: 258px;
+  height: 172px;
+  margin-right: 10px;
+}
+
+.moreStories img:hover {
+  cursor: pointer;
+}
+
+.moreStories a {
+  color: inherit;
+}
+
+.moreStories a:hover {
+  text-decoration-color: #f72210;
+}
+
+.moreH2 {
+  font-weight: bolder;
+  font-size: 1.15em;
+}
+
+.moreStories p {
+  font-size: 0.8em;
+}
+
+/* FEATURED STORIES */
+
+
 
 /* FOOTER */
 
@@ -146,7 +283,7 @@ nav,
 }
 
 #footerTop img {
-  margin-bottom: 15px;
+  margin: 15px 0;
   min-width: 236px;
   max-width: 236px;
 }
@@ -270,10 +407,71 @@ nav,
   font-weight: bold;
 }
 
+/* BIT BIGGER */
+
+@media only screen and (max-width: 461px){
+
+  .logoDiv {
+    min-width: 122px;
+  }
+
+  #navButtons {
+    font-size: 0.7em;
+  }
+
+  #navButtons img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #navButtons button {
+    margin-right: 5px;
+  }
+
+  /* MAIN */
+
+  .moreStories h2 {
+    line-height: 0.9em;
+  }
+
+  .moreStories img {
+    width: 135px;
+    height: 90px;
+  }
+
+}
+
 /* MED */
 
+@media only screen and (max-width: 767px){
+  nav {
+    position: fixed;
+    top: 0;
+  }
+
+  main {
+    position: relative;
+    top: 50px;
+  }
+
+  footer {
+    position: relative;
+    top: 52px;
+  }
+
+  /* MAIN CONTENT */
+
+  #cultureTravel {
+    order: 1;
+  }
+
+}
+
 @media only screen and (min-width: 768px){
-  
+  .moreStories img {
+    width: 135px;
+    height: 90px;
+  }
 }
 
 /* LARGE */
