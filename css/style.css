@@ -132,15 +132,110 @@ nav,
   background-color: white;
 }
 
-#footerTop {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+#footerTop,
+#footerBottom {
+  width: 98%;
+  margin: auto;
 }
 
-#footerTop {
-  width: 236px;
-  height: auto;
+#footerTop::after {
+  margin: auto;
+  content: '';
+  width: 97%;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+#footerTop img {
+  margin-bottom: 15px;
+  min-width: 236px;
+  max-width: 236px;
+}
+
+#footerTop div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+#footerTop div:first-child p {
+  font-size: 0.8em;
+  color: #666;
+}
+
+#footerTop ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+}
+
+#footerTop ul li{
+  list-style-type: none;
+  height: 25px;
+  width: 25px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+#footerTop ul li:nth-child(1) {
+  background-image: url(./images/fbLogo.PNG);
+}
+
+#footerTop ul li:nth-child(2) {
+  background-image: url(./images/twitterLogo.PNG);
+}
+
+#footerTop ul li:nth-child(3) {
+  background-image: url(./images/instaLogo.PNG);
+}
+
+#footerTop ul li:nth-child(4) {
+  background-image: url(./images/tumblrLogo.PNG);
+  background-position-y: 1px;
+  margin-right: 5px;
+}
+
+#footerTop ul li:nth-child(5) {
+  background-image: url(./images/linkedinLogo.PNG);
+}
+
+#footerTop ul li:nth-child(1):hover {
+  background-image: url(./images/fbLogoBlue.PNG);
+  background-size: 120%;
+}
+
+#footerTop ul li:nth-child(2):hover {
+  background-image: url(./images/twitterLogoBlue.PNG);
+  background-size: 130%;
+}
+
+#footerTop ul li:nth-child(3):hover {
+  background-image: url(./images/instaLogoBlue.PNG);
+  background-size: 115%;
+}
+
+#footerTop ul li:nth-child(4):hover {
+  background-image: url(./images/tumblerLogoBlue.PNG);
+  background-position-x: -2px;
+  background-position-y: -2px;
+  background-size: 115%;
+}
+
+#footerTop ul li:nth-child(5):hover {
+  background-image: url(./images/linkedinLogoBlue.PNG);
+  background-size: 120%;
+}
+
+.borderTest {
+  border: 1px solid black;
+  height: 50px;
+}
+
+#footerBottom {
+  color: #666;
+}
+
+#footerBottom div p {
+  font-weight: bold;
 }
 
 /* MED */
@@ -193,4 +288,29 @@ nav,
   #mainContent {
     margin-top: 56px;
   }
+
+  /* FOOTER */
+
+  #footerTop,
+  #footerBottom {
+    width: 95%;
+  }
+
+  #footerTop div:first-child {
+    flex-direction: row;
+  }
+
+  #footerTop div:first-child p {
+    position: relative;
+    top: 17px;
+    left: 10px;
+  }
+
+  #footerTop ul {
+    justify-content: flex-end;
+    margin: 0;
+    position: relative;
+    top: 10px;
+  }
+
 }
