@@ -53,6 +53,15 @@ input {
   color: white;
 }
 
+.ad1 div:nth-child(2) button {
+  width: 120px;
+  border: none;
+  background-color: #f72210;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+
 #navButtons button {
   border: 1px solid red;
   height: 25px;
@@ -91,12 +100,32 @@ input {
   height: auto;
 }
 
+.genreTag img {
+  width: 40px;
+  height: auto;
+}
+
+.bottomLeftImg img {
+  width: 100%;
+  height: auto;
+}
+
+.bottomRightImg img {
+  width: 258px;
+  height: auto;
+  margin-right: 20px;
+}
+
 .moreStories img:hover {
   cursor: pointer;
 }
 
 .genreArticle img:hover {
   cursor: pointer;
+}
+
+.ad1 div:nth-child(1) img {
+  width: 260px;
 }
 
 #navButtons img {
@@ -145,6 +174,11 @@ nav,
 }
 
 .latestTitle h2 a {
+  color: black;
+}
+
+.genreArticle h2 a {
+  text-decoration-color: #f72210;
   color: black;
 }
 
@@ -290,6 +324,12 @@ div h1:first-child:hover {
   width: 100%;
 }
 
+#footerTop img {
+  margin: 15px 0;
+  min-width: 236px;
+  max-width: 236px;
+}
+
 #cultureTravel figure img {
   width: 100%;
   height: auto;
@@ -304,6 +344,21 @@ div h1:first-child:hover {
   font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 0;
+}
+
+.genreArticle h2 {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.bottomGenres h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.ad1 h2 {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 #cultureTravel h2 {
@@ -414,6 +469,10 @@ div h1:first-child:hover {
   margin-bottom: 0;
 }
 
+#footerBottom div p {
+  font-weight: bold;
+}
+
 #newsLetterBox p:hover {
   cursor: pointer;
 }
@@ -490,16 +549,6 @@ div h1:first-child:hover {
   margin-top: 15px;
 }
 
-.genreArticle h2 {
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
-.genreArticle h2 a {
-  text-decoration-color: #f72210;
-  color: black;
-}
-
 #inMagazineBottom {
   margin: auto;
 }
@@ -516,11 +565,6 @@ div h1:first-child:hover {
   margin-bottom: -35px;
 }
 
-.genreTag img {
-  width: 40px;
-  height: auto;
-}
-
 /* EDITOR'S PICKS */
 
 /* FEATURED SLIDESHOWS */
@@ -530,11 +574,6 @@ div h1:first-child:hover {
 }
 
 /* BOTTOM GENRES */
-
-.bottomGenres h2 {
-  font-size: 1.1em;
-  font-weight: bold;
-}
 
 .bottomGenreTitle {
   color: #f72210;
@@ -550,22 +589,11 @@ div h1:first-child:hover {
   margin-bottom: 20px;
 }
 
-.bottomLeftImg img {
-  width: 100%;
-  height: auto;
-}
-
 .bottomRightImg {
   display: flex;
   flex-direction: row;
   padding: 10px 0;
   border-top: 1px solid #c2d4d7;
-}
-
-.bottomRightImg img {
-  width: 258px;
-  height: auto;
-  margin-right: 20px;
 }
 
 /* BOTTOM ADS */
@@ -584,20 +612,11 @@ div h1:first-child:hover {
   flex-direction: row;
 }
 
-.ad1 div:nth-child(1) img {
-  width: 260px;
-}
-
 .ad1 div:nth-child(2) {
   margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.ad1 h2 {
-  font-size: 1.2em;
-  font-weight: bold;
 }
 
 #thisImg {
@@ -612,15 +631,6 @@ div h1:first-child:hover {
 
 .adRight {
   margin: 20px;
-}
-
-.ad1 div:nth-child(2) button {
-  width: 120px;
-  border: none;
-  background-color: #f72210;
-  color: white;
-  font-weight: bold;
-  padding: 10px 5px;
 }
 
 /* FOOTER */
@@ -640,12 +650,6 @@ div h1:first-child:hover {
   content: '';
   width: 97%;
   border-bottom: 1px solid rgb(201, 201, 201);
-}
-
-#footerTop img {
-  margin: 15px 0;
-  min-width: 236px;
-  max-width: 236px;
 }
 
 #footerTop div:first-child {
@@ -673,6 +677,11 @@ div h1:first-child:hover {
   margin-right: 10px;
 }
 
+#footerBottom div ul li {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
 #footerTop ul li:nth-child(1) {
   background-image: url(./images/fbLogo.PNG);
 }
@@ -693,6 +702,11 @@ div h1:first-child:hover {
 
 #footerTop ul li:nth-child(5) {
   background-image: url(./images/linkedinLogo.PNG);
+}
+
+#footerBottom div ul li:hover {
+  cursor: pointer;
+  color: black;
 }
 
 #footerTop ul li:nth-child(1):hover {
@@ -733,11 +747,6 @@ div h1:first-child:hover {
   padding-left: 0;
 }
 
-#footerBottom div ul li {
-  list-style-type: none;
-  margin-right: 15px;
-}
-
 #footerBottom div ul li::after {
   content: '';
   height: 10px;
@@ -750,21 +759,12 @@ div h1:first-child:hover {
   border: none;
 }
 
-#footerBottom div ul li:hover {
-  cursor: pointer;
-  color: black;
-}
-
 #footerBottom div:nth-child(2) {
   display: flex;
 }
 
 #footerBottom div:nth-child(3) {
   padding-left: 37px;
-}
-
-#footerBottom div p {
-  font-weight: bold;
 }
 
 /* BIT BIGGER */
