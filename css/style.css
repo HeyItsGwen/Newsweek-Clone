@@ -797,6 +797,10 @@ div h1:first-child:hover {
   .moreStories h2 {
     line-height: 0.9em;
   }
+
+  .ad1 div:nth-child(1) {
+    flex-direction: column;
+  }
 }
 
 /* MED */
