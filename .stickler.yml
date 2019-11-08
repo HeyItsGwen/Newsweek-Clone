@@ -8,6 +8,10 @@ files:
     - 'bootstrap-reboot.css'
     - 'reboot.css'
     - 'reset.css'
+    - 'bootstrap.css'
+    - 'bootstrap.css.map'
+    - 'bootstrap.min.css'
+    - 'bootstrap.min.css.map'
 
 fixers:
   enable: true
