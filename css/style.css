@@ -80,7 +80,22 @@ input {
   margin-right: 11px;
 }
 
+.genreTitle img {
+  width: 29px;
+  height: 29px;
+  margin-right: 10px;
+}
+
+.genreArticle img {
+  width: 100%;
+  height: auto;
+}
+
 .moreStories img:hover {
+  cursor: pointer;
+}
+
+.genreArticle img:hover {
   cursor: pointer;
 }
 
@@ -133,11 +148,6 @@ nav,
   color: black;
 }
 
-.latestTitle h2 a:hover {
-  text-decoration: none;
-  color: #f72210;
-}
-
 .cultureGenre a:hover {
   background-color: #272727;
   color: #c2d4d7;
@@ -149,6 +159,11 @@ nav,
 }
 
 .opinionTitle a:hover {
+  color: #f72210;
+}
+
+.latestTitle h2 a:hover {
+  text-decoration: none;
   color: #f72210;
 }
 
@@ -194,12 +209,17 @@ nav,
   width: 100%;
 }
 
+.fullFigure h1 {
+  font-weight: bolder;
+  font-size: 0.8em;
+  margin-bottom: 7px;
+  color: rgba(3, 3, 3, 0.4);
+}
 
 div h1:first-child:hover {
   cursor: pointer;
 }
 
-.fullFigure h1,
 #cultureTravel h1,
 #moreStories h1,
 #left h1,
@@ -261,9 +281,29 @@ div h1:first-child:hover {
   display: inline-block;
 }
 
+#logoSubscribe img {
+  float: left;
+  margin: 5px 10px 5px 0;
+}
+
+#feature img {
+  width: 100%;
+}
+
 #cultureTravel figure img {
   width: 100%;
   height: auto;
+}
+
+.latestTitle h2 {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.genreTitle h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 #cultureTravel h2 {
@@ -272,6 +312,16 @@ div h1:first-child:hover {
 
 .moreStories p {
   font-size: 0.8em;
+}
+
+.boxAndGenre p:nth-child(2) {
+  font-weight: bold;
+  margin-left: 10px;
+  color: #f72210;
+}
+
+.boxAndGenre p:nth-child(2):hover {
+  cursor: pointer;
 }
 
 #cultureTravel p {
@@ -324,11 +374,6 @@ div h1:first-child:hover {
   margin: 20px 0 20px 0;
 }
 
-.latestTitle h2 {
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
 .latestNewsDiv {
   overflow: auto;
   border-bottom: 1px solid #e7e7e7;
@@ -344,11 +389,6 @@ div h1:first-child:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-#logoSubscribe img {
-  float: left;
-  margin: 5px 10px 5px 0;
 }
 
 #logoSubscribe h3 {
@@ -387,10 +427,6 @@ div h1:first-child:hover {
 }
 
 /* COVER */
-
-#feature img {
-  width: 100%;
-}
 
 #feature img:hover {
   cursor: pointer;
@@ -435,18 +471,6 @@ div h1:first-child:hover {
   margin-top: 20px;
 }
 
-.genreTitle img {
-  width: 29px;
-  height: 29px;
-  margin-right: 10px;
-}
-
-.genreTitle h2 {
-  font-size: 1.1em;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
 .boxAndGenre {
   display: flex;
   flex-direction: row;
@@ -462,27 +486,8 @@ div h1:first-child:hover {
   padding-right: 6px;
 }
 
-.boxAndGenre p:nth-child(2) {
-  font-weight: bold;
-  margin-left: 10px;
-  color: #f72210;
-}
-
-.boxAndGenre p:nth-child(2):hover {
-  cursor: pointer;
-}
-
 .genreArticle {
   margin-top: 15px;
-}
-
-.genreArticle img {
-  width: 100%;
-  height: auto;
-}
-
-.genreArticle img:hover {
-  cursor: pointer;
 }
 
 .genreArticle h2 {
