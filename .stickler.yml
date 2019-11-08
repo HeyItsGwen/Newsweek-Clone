@@ -5,6 +5,7 @@ linters:
 files:
   ignore:
     - 'normalize.css'
+    - 'bootstrap-reboot.css'
     - 'reboot.css'
     - 'reset.css'
 
