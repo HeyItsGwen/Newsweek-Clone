@@ -113,24 +113,25 @@ nav,
   background-color: #c2d4d7;
 }
 
-.cultureGenre a:hover {
-  background-color: #272727;
-  color: #c2d4d7;
-  text-decoration: none;
-}
-
 .moreStories a {
   color: inherit;
-}
-
-.moreStories a:hover {
-  text-decoration-color: #f72210;
 }
 
 .opinionTitle a {
   text-decoration: none;
   color: black;
 }
+
+.cultureGenre a:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+  text-decoration: none;
+}
+
+.moreStories a:hover {
+  text-decoration-color: #f72210;
+}
+
 
 .opinionTitle a:hover {
   color: #f72210;
