@@ -506,7 +506,7 @@ div h1:first-child:hover {
   margin: auto;
 }
 
-#slideGenreTag {
+.slideGenreTag {
   height: 45px;
   width: 45px;
   top: -45px;
@@ -567,8 +567,7 @@ div h1:first-child:hover {
 
 /* BOTTOM ADS */
 
-#ad1,
-#ad2 {
+.ad1 {
   margin-top: 40px;
 }
 
@@ -577,23 +576,23 @@ div h1:first-child:hover {
   padding: 20px;
 }
 
-#ad1 div:nth-child(1) {
+.ad1 div:nth-child(1) {
   display: flex;
   flex-direction: row;
 }
 
-#ad1 div:nth-child(1) img {
+.ad1 div:nth-child(1) img {
   width: 260px;
 }
 
-#ad1 div:nth-child(2) {
+.ad1 div:nth-child(2) {
   margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-#ad1 h2 {
+.ad1 h2 {
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -612,7 +611,7 @@ div h1:first-child:hover {
   margin: 20px;
 }
 
-#ad1 div:nth-child(2) button {
+.ad1 div:nth-child(2) button {
   width: 120px;
   border: none;
   background-color: #f72210;
