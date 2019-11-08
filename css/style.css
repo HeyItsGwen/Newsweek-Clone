@@ -382,6 +382,7 @@ div h1:first-child:hover {
 #bottomContent {
   background-color: white;
   max-width: 1311px;
+  padding-top: 30px;
 }
 
 /* COVER */
@@ -422,10 +423,6 @@ div h1:first-child:hover {
 }
 
 /* GENRE'S */
-
-#bottomContent {
-  padding-top: 30px;
-}
 
 .genreTitle {
   display: flex;
@@ -775,6 +772,11 @@ div h1:first-child:hover {
     font-size: 0.7em;
   }
 
+  .moreStories img {
+    width: 135px;
+    height: 90px;
+  }
+
   #navButtons img {
     width: 20px;
     height: 20px;
@@ -790,10 +792,6 @@ div h1:first-child:hover {
     line-height: 0.9em;
   }
 
-  .moreStories img {
-    width: 135px;
-    height: 90px;
-  }
 }
 
 /* MED */
@@ -921,6 +919,10 @@ div h1:first-child:hover {
     margin-top: 33px;
   }
 
+  .adContainer2 img {
+    width: 291px !important;
+  }
+
   #navButtons img {
     position: absolute;
     visibility: hidden;
@@ -964,10 +966,6 @@ div h1:first-child:hover {
   }
 
   /* BOTTOM ADS */
-
-  .adContainer2 img {
-    width: 291px !important;
-  }
 
   /* FOOTER */
 
