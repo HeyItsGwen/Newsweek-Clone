@@ -9,7 +9,7 @@
 
 ## About the project
 
-![Screenshot Image](images/screenshot.PNG)
+![Screenshot Image](./css/images/screenshot.PNG)
 
 This is a clone of the newsweek homepage for the second solo project in the microverse curriculum. It is built with HTML and CSS, and is based on the homepage at: www.newsweek.com
 
