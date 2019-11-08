@@ -138,7 +138,7 @@ nav,
   font-weight: bolder;
   font-size: 0.8em;
   margin-bottom: 7px;
-  color: rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, 0.4);
 }
 
 div h1:first-child:hover {
@@ -412,7 +412,7 @@ div h1:first-child:hover {
 
 #allFeatures:hover {
   cursor: pointer;
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 
 #allFeatures h3 {
@@ -520,7 +520,7 @@ div h1:first-child:hover {
 
 /* EDITOR'S PICKS */
 
-/* FEATURED SLIDESHOWS*/
+/* FEATURED SLIDESHOWS */
 
 .featuredSlideshows {
   margin-bottom: 30px;
@@ -661,7 +661,7 @@ div h1:first-child:hover {
   padding-left: 0;
 }
 
-#footerTop ul li{
+#footerTop ul li {
   list-style-type: none;
   height: 25px;
   width: 25px;
@@ -766,8 +766,7 @@ div h1:first-child:hover {
 
 /* BIT BIGGER */
 
-@media only screen and (max-width: 461px){
-
+@media only screen and (max-width: 461px) {
   .logoDiv {
     min-width: 122px;
   }
@@ -795,12 +794,11 @@ div h1:first-child:hover {
     width: 135px;
     height: 90px;
   }
-
 }
 
 /* MED */
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   nav {
     position: fixed;
     top: 0;
@@ -821,14 +819,13 @@ div h1:first-child:hover {
   #cultureTravel {
     order: 1;
   }
-  
+
   #cultureTravel figure {
     width: 100%;
   }
-
 }
 
-@media only screen and (min-width: 767px) and (max-width: 991px){
+@media only screen and (min-width: 767px) and (max-width: 991px) {
   /* EDITOR'S PICKS */
 
   .editorsPick .genreArticle {
@@ -851,10 +848,9 @@ div h1:first-child:hover {
     width: 135px;
     height: 90px;
   }
-
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .moreStories img {
     width: 135px;
     height: 90px;
@@ -894,7 +890,6 @@ div h1:first-child:hover {
   .editorsPick .genreArticle {
     height: 382px;
   }
-
 }
 
 /* LARGE */
@@ -1008,5 +1003,4 @@ div h1:first-child:hover {
     position: relative;
     left: 30px;
   }
-
 }
