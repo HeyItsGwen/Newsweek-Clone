@@ -37,7 +37,7 @@ input {
   color: white;
 }
 
-#navLogo {
+.navLogo {
   display: flex;
 }
 
@@ -60,7 +60,7 @@ input {
   max-width: 1311px;
 }
 
-#stickyNav #navLogo {
+#stickyNav .navLogo {
   justify-content: flex-start;
   align-items: center;
 }
@@ -973,7 +973,7 @@ div h1:first-child:hover {
     margin-top: 27px;
   }
 
-  #navLogo {
+  .navLogo {
     justify-content: center;
   }
 
