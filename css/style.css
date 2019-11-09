@@ -60,7 +60,7 @@ input {
   max-width: 1311px;
 }
 
-#stickyNav #navLogo{
+#stickyNav #navLogo {
   justify-content: flex-start;
   align-items: center;
 }
@@ -804,7 +804,6 @@ div h1:first-child:hover {
 /* BIT BIGGER */
 
 @media only screen and (max-width: 461px) {
-  
   .logoDiv {
     min-width: 122px;
   }
@@ -841,7 +840,6 @@ div h1:first-child:hover {
 /* MED */
 
 @media only screen and (max-width: 767px) {
-
   #stickyNav {
     z-index: 5;
   }
@@ -862,7 +860,7 @@ div h1:first-child:hover {
   }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 991px) {  
+@media only screen and (min-width: 767px) and (max-width: 991px) {
   /* EDITOR'S PICKS */
 
   .editorsPick .genreArticle {
@@ -888,7 +886,6 @@ div h1:first-child:hover {
 }
 
 @media only screen and (min-width: 768px) {
-
   #stickyNav {
     z-index: 5;
   }
@@ -948,11 +945,9 @@ div h1:first-child:hover {
 }
 
 @media only screen and (max-width: 991px) {
-
   #mainContent {
     top: 0;
   }
-
 }
 
 /* LARGE */
