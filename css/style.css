@@ -54,6 +54,10 @@ input {
   position: fixed;
   z-index: 1;
   top: 0;
+  background-color: #f72210;
+  height: 50px;
+  width: 100%;
+  max-width: 1311px;
 }
 
 #stickyNav #navLogo{
@@ -87,13 +91,6 @@ input {
   font-weight: bolder;
   color: red;
   margin: auto 20px auto 10px;
-}
-
-#stickyNav {
-  background-color: #f72210;
-  height: 50px;
-  width: 100%;
-  max-width: 1311px;
 }
 
 .fullFigure img {
@@ -917,6 +914,10 @@ div h1:first-child:hover {
     top: 80px;
   }
 
+  .bottomRightImg {
+    height: 30%;
+  }
+
   #feature img {
     max-width: 220px;
     height: auto;
@@ -938,10 +939,6 @@ div h1:first-child:hover {
 
   .editorsPick .genreArticle {
     height: 382px;
-  }
-
-  .bottomRightImg {
-    height: 30%;
   }
 
   .bottomRightImg img {
@@ -993,6 +990,11 @@ div h1:first-child:hover {
     width: 291px !important;
   }
 
+  .bottomRightImg img {
+    max-width: 150px;
+    height: auto;
+  }
+
   #navButtons img {
     position: absolute;
     visibility: hidden;
@@ -1035,11 +1037,6 @@ div h1:first-child:hover {
     flex-direction: column;
     width: 48%;
     justify-content: space-around;
-  }
-
-  .bottomRightImg img {
-    max-width: 150px;
-    height: auto;
   }
 
   /* BOTTOM ADS */
