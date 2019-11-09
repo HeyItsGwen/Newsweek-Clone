@@ -915,6 +915,11 @@ div h1:first-child:hover {
     height: 30%;
   }
 
+  .bottomRightImg img {
+    width: 150px;
+    height: auto;
+  }
+
   #feature img {
     max-width: 220px;
     height: auto;
@@ -938,10 +943,6 @@ div h1:first-child:hover {
     height: 382px;
   }
 
-  .bottomRightImg img {
-    width: 150px;
-    height: auto;
-  }
 }
 
 @media only screen and (max-width: 991px) {
