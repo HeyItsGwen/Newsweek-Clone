@@ -897,6 +897,15 @@ div h1:first-child:hover {
   .editorsPick .genreArticle {
     height: 382px;
   }
+
+  .bottomRightImg {
+    height: 30%;
+  }
+
+  .bottomRightImg img {
+    width: 150px;
+    height: auto;
+  }
 }
 
 /* LARGE */
@@ -972,6 +981,11 @@ div h1:first-child:hover {
     flex-direction: column;
     width: 48%;
     justify-content: space-around;
+  }
+
+  .bottomRightImg img {
+    max-width: 150px;
+    height: auto;
   }
 
   /* BOTTOM ADS */
