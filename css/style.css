@@ -2,6 +2,10 @@
 
 /* NAV */
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #f4f5f6;
 }
@@ -804,12 +808,14 @@ div h1:first-child:hover {
 /* BIT BIGGER */
 
 @media only screen and (max-width: 461px) {
-  .logoDiv {
+  .logoDiv,
+  .stickyLogoDiv {
     min-width: 122px;
   }
 
+  #stickyNav,
   #navButtons {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
   .moreStories img {
@@ -817,13 +823,15 @@ div h1:first-child:hover {
     height: 90px;
   }
 
-  #navButtons img {
+  #navButtons img,
+  #stickyNav img {
     width: 20px;
     height: 20px;
   }
 
-  #navButtons button {
-    margin-right: 5px;
+  #navButtons button,
+  #stickyNav button {
+    margin: 5px;
   }
 
   /* MAIN */
